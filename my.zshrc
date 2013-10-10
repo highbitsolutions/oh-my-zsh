@@ -16,6 +16,11 @@ ZSH_THEME="robbyrussell"
 alias bbydev30='ssh dev30'
 alias bbydev32='ssh dev32'
 alias bbyjenkins='ssh jenkins'
+alias dbstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias dbstop='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop'
+alias cdcomfe='cd ~/Projects/commerce_anywhere_fe'
+alias cdcompart='cd ~/Projects/commerce_anywhere_partner'
+alias cdcomui='cd ~/Projects/commerce_ui'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
