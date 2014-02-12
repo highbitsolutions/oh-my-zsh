@@ -58,5 +58,9 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH
 
+# Gradle for PCM team
+export PATH=/Users/a6000257/workspace/tools/gradle_1.11/bin:$PATH
+export GRADLE_OPTS="-Xmx1024m -Xms256m -XX:MaxPermSize=512m"
+
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/a6000257/.gvm/bin/gvm-init.sh" ]] && source "/Users/a6000257/.gvm/bin/gvm-init.sh"
