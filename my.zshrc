@@ -64,7 +64,7 @@ export GRADLE_OPTS="-Xmx1024m -Xms256m -XX:MaxPermSize=512m"
 
 # SonarCube stuff for PCM team
 export SONAR_RUNNER_HOME=/Users/a6000257/workspace/tools/sonarqube_4.1.1
-export PATH=$SONAR_RUNNER_HOME/bin/macos-universal-64:$PATH
+export PATH=$SONAR_RUNNER_HOME/bin/macosx-universal-64:$PATH
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/a6000257/.gvm/bin/gvm-init.sh" ]] && source "/Users/a6000257/.gvm/bin/gvm-init.sh"
