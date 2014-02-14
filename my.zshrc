@@ -69,6 +69,9 @@ export PATH=$SONAR_RUNNER_HOME/bin/macosx-universal-64:$PATH
 # Vagrant alias for PCM team
 alias v="vagrant"
 
+# cd cupcake alias for PCM team
+alias cdcup='cd ~/workspace/git/cupcake/cupcake'
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
