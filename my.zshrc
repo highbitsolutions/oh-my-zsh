@@ -67,7 +67,7 @@ export SONAR_RUNNER_HOME=/Users/a6000257/workspace/tools/sonarqube_4.1.1
 export PATH=$SONAR_RUNNER_HOME/bin/macosx-universal-64:$PATH
 
 # Vagrant alias for PCM team
-alias v="vagrant"
+alias va="vagrant"
 
 # cd cupcake alias for PCM team
 alias cdcup='cd ~/workspace/git/cupcake/cupcake'
