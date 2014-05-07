@@ -70,7 +70,7 @@ export PATH=$SONAR_RUNNER_HOME/bin/macosx-universal-64:$PATH
 alias va="vagrant"
 
 # Vagrant stuff for PCM team
-PRIVATE_CHEF_USERNAME=derek_studanski
+export PRIVATE_CHEF_USERNAME=derek_studanski
 
 # cd cupcake alias for PCM team
 alias cdcup='cd ~/workspace/git/cupcake/cupcake'
