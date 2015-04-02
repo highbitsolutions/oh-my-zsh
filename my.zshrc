@@ -60,7 +60,7 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/bin:/bin:/usr/sbin
 
 # Gradle for PCM team
 export PATH=/Users/a6000257/gradle_1.11/bin:$PATH
-export GRADLE_OPTS="-Xmx1024m -Xms256m -XX:MaxPermSize=512m"
+export GRADLE_OPTS="-Xmx1024m -Xms256m"
 
 # SonarCube stuff for PCM team
 export SONAR_RUNNER_HOME=/Users/a6000257/workspace/tools/sonarqube_4.1.1
